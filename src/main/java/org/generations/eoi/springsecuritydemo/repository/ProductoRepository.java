@@ -6,4 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long> {
+  private void sharkMethod()
+  {
+    //Esto vale por un tiburon
+  }
 }
